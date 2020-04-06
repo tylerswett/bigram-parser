@@ -9,11 +9,11 @@ npm run test             ... Executes unit test cases
  
 ### Functions and usage
 
-**formatInput** - Input: String, Output: String[]
+**formatInput** - _Input: String, Output: String[]_ - 
 Converts an input string to lowercase, removes punctuation, and converts it into an array of separate strings
 
-**countBigrams** - Input: String[], Output: Map()
+**countBigrams** - _Input: String[], Output: Map()_ - 
 Recursively goes through each bigram in your string array and counts the amount of times each bigram appears into a Map. Provide formatted input to this, or if you want your bigrams to be case sensitive or to include punctuation, then pass in your own array of input strings
 
-**formatHistogramString** - Input: Map(), Output: String
+**formatHistogramString** - _Input: Map(), Output: String_ - 
 Takes in your histogram map and creates a human readable string showing the amount of times each bigram occured

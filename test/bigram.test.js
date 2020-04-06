@@ -38,6 +38,7 @@ describe('Bigram counting test', () => {
 });
 
 describe('Histogram string format test', () => {
+  //Create an example histogram map
   var testHist = new Map();
   testHist.set("test bigram", 2);
   testHist.set("bigram val", 1);
@@ -45,6 +46,7 @@ describe('Histogram string format test', () => {
   var testString = bigram.formatHistogramString(testHist);
   var expectedString = `"test bigram" 2\n"bigram val" 1`;
 
+  //check if it's output string is in the correct format (without trainling newline)
   it('output string format is correct', () => {
     assert.equal(testString, expectedString);
   });
