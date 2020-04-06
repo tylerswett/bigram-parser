@@ -4,8 +4,8 @@ This simple app allows you to parse and count bigrams in any given input string
 
 ### Command line usage
 
-npm run start [file]     ... When running in this method, the text content of the file path will automatically be lowercased, punctuation removed, and results will be output to the console
-npm run test             ... Executes unit test cases
+* `npm run start [file]`     ... When running in this method, the text content of the file path will automatically be lowercased, punctuation removed, and results will be output to the console
+* `npm run test`             ... Executes unit test cases
  
 ### Functions and usage
 

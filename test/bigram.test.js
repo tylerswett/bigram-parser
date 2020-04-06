@@ -27,13 +27,13 @@ describe('Bigram counting test', () => {
     assert.equal(testBigram.size, 7);
   });
  it('counts for each bigrams should be 2, 1, 1, 1, 1, 1, 1', () => {
-    assert.equal(testBigram.get("the quick"),2)
-    assert.equal(testBigram.get("quick brown"),1)
-    assert.equal(testBigram.get("brown fox"),1)
-    assert.equal(testBigram.get("fox and"),1)
-    assert.equal(testBigram.get("and the"),1)
-    assert.equal(testBigram.get("quick blue"),1)
-    assert.equal(testBigram.get("blue hare"),1)
+    assert.equal(testBigram.get("the quick"),2);
+    assert.equal(testBigram.get("quick brown"),1);
+    assert.equal(testBigram.get("brown fox"),1);
+    assert.equal(testBigram.get("fox and"),1);
+    assert.equal(testBigram.get("and the"),1);
+    assert.equal(testBigram.get("quick blue"),1);
+    assert.equal(testBigram.get("blue hare"),1);
   });
 });
 
